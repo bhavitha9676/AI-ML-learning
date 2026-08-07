@@ -2,7 +2,7 @@
 
 ## AI & ML Internship – Codomax Digital Solutions
 
-**Intern:** Thanniru Adarsh  
+**Intern:** Bandaru Bhavitha  
 **Module:** Module 1 – Introduction to AI & Python  
 **Duration:** Day 1 – Day 4  
 **Level:** Beginner
