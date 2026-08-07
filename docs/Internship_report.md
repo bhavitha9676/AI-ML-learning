@@ -2,7 +2,7 @@
 
 ## Intern Details
 
-**Name:** Thanniru Adarsh  
+**Name:** Bandaru Bhavitha
 **Role:** AI & ML Intern  
 **Organization:** Codomax Digital Solutions
 
