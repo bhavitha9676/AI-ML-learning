@@ -1,14 +1,2 @@
----
-
-# 2. `requirements.txt`
-
-Open the root **`requirements.txt`** and paste:
-
-```text
-numpy
-pandas
-matplotlib
-scikit-learn
-seaborn
-jupyter
-notebook
+# Module 1 uses Python standard library only.
+# No external packages are required.
