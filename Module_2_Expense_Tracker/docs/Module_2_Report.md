@@ -1,33 +1,43 @@
-Module 2 Report – Expense Tracker
-1. Project Title
-Expense Tracker
+# Module 2 Report – Expense Tracker
 
-2. Introduction
-As part of Module 2 of the internship, an Expense Tracker application was developed using Python.
+## 1. Project Title
+
+**Expense Tracker**
+
+## 2. Introduction
+
+As part of **Module 2 of the internship**, an Expense Tracker application was developed using **Python**.
 
 The project helps users manage their daily expenses and provides basic expense analysis.
 
-3. Objective
+## 3. Objective
+
 The main objective is to develop a simple application that can:
 
-Store expenses
-View expenses
-Search expenses
-Update expenses
-Delete expenses
-Calculate summaries
-Generate reports
-4. Technologies Used
-Python
-CSV
-Unittest
-VS Code
-Git
-GitHub
-5. Project Structure
+* Store expenses
+* View expenses
+* Search expenses
+* Update expenses
+* Delete expenses
+* Calculate expense summaries
+* Generate reports
+
+## 4. Technologies Used
+
+* **Python**
+* **CSV**
+* **Unittest**
+* **VS Code**
+* **Git**
+* **GitHub**
+
+## 5. Project Structure
+
+```text
 Module_2_Expense_Tracker/
 │
 ├── README.md
+│
 ├── src/
 │   ├── main.py
 │   ├── expense_manager.py
@@ -37,117 +47,186 @@ Module_2_Expense_Tracker/
 │   └── utils.py
 │
 ├── data/
+│   ├── expenses.csv
+│   └── sample_expense.csv
+│
 ├── config/
+│   └── settings.py
+│
 ├── tests/
+│   └── test_expense_tracker.py
+│
 ├── docs/
+│   ├── Module_2_Report.md
+│   ├── Project_Requirements.md
+│   ├── user_guide.md
+│   └── Screenshots/
+│
 ├── outputs/
+│   ├── expense_report.txt
+│   └── monthly_summary.txt
+│
 └── .gitignore
-6. Main Modules
-main.py
+```
+
+## 6. Main Modules
+
+### `main.py`
+
 Contains the main menu and handles user interaction.
 
-expense_manager.py
+### `expense_manager.py`
+
 Handles adding, viewing, searching, updating, and deleting expenses.
 
-file_handler.py
+### `file_handler.py`
+
 Handles CSV file operations.
 
-validator.py
+### `validator.py`
+
 Validates user input such as date, amount, category, and payment method.
 
-report_generator.py
+### `report_generator.py`
+
 Creates expense and monthly reports.
 
-utils.py
+### `utils.py`
+
 Contains common helper functions.
 
-settings.py
+### `settings.py`
+
 Contains project configuration values.
 
-7. Main Features
-Add Expense
-Users can enter the date, category, description, amount, and payment method.
+## 7. Main Features
 
-View Expenses
+### Add Expense
+
+Users can enter the following details:
+
+* Date
+* Category
+* Description
+* Amount
+* Payment method
+
+### View Expenses
+
 Displays all stored expenses.
 
-Search Expense
-Allows users to search for expenses.
+### Search Expense
 
-Update Expense
+Allows users to search for specific expenses.
+
+### Update Expense
+
 Allows existing expense information to be modified.
 
-Delete Expense
+### Delete Expense
+
 Allows unwanted expenses to be removed.
 
-Expense Summary
-Displays total, highest, average, and category-wise expenses.
+### Expense Summary
 
-Monthly Report
-Displays expenses according to the month.
+Displays:
 
-8. Data Storage
+* Total expenses
+* Highest expense
+* Average expense
+* Category-wise expenses
+
+### Monthly Report
+
+Displays expenses according to the selected month.
+
+## 8. Data Storage
+
 Expense data is stored in:
 
+```text
 data/expenses.csv
-Example:
+```
 
-id,date,category,description,amount,payment_method
-1,2026-08-01,Food,Breakfast,120,UPI
-2,2026-08-02,Travel,Bus Ticket,80,Cash
-9. Testing
-Unit testing was performed using Python's unittest module.
+### Example
 
-Command:
+| ID | Date       | Category | Description | Amount | Payment Method |
+| -: | ---------- | -------- | ----------- | -----: | -------------- |
+|  1 | 2026-08-01 | Food     | Breakfast   |    120 | UPI            |
+|  2 | 2026-08-02 | Travel   | Bus Ticket  |     80 | Cash           |
 
+## 9. Testing
+
+Unit testing was performed using Python's `unittest` module.
+
+### Testing Command
+
+```bash
 python -m unittest discover tests
-Expected output:
+```
 
+### Expected Output
+
+```text
 ......
-----------------------------------------------------------------------
 Ran 6 tests
 
 OK
-10. Screenshots
+```
+
+## 10. Screenshots
+
 The following screenshots are included in the project:
 
-Project Structure
-Add Expense
-View Expenses
-Search Expense
-Expense Summary
-CSV Data
-Testing
-GitHub Repository
+* Project Structure
+* Add Expense
+* View Expenses
+* Search Expense
+* Expense Summary
+* CSV Data
+* Testing
+* GitHub Repository
+
 Screenshots are stored in:
 
+```text
 docs/Screenshots/
-11. Result
-The Expense Tracker was successfully developed.
+```
+
+## 11. Result
+
+The **Expense Tracker** was successfully developed.
 
 The application can store and manage expenses and generate useful summaries and reports.
 
-12. Learning Outcomes
+## 12. Learning Outcomes
+
 Through this project, I learned and practiced:
 
-Python programming
-Functions
-Modules
-File handling
-CSV handling
-Classes and objects
-Input validation
-Unit testing
-Git and GitHub
-Project documentation
-13. Future Enhancements
+* Python programming
+* Functions
+* Modules
+* File handling
+* CSV handling
+* Classes and objects
+* Input validation
+* Unit testing
+* Git and GitHub
+* Project documentation
+
+## 13. Future Enhancements
+
 The project can be improved by adding:
 
-GUI
-Database
-Expense charts
-Login system
-Excel/PDF reports
-Web application
-14. Conclusion
-The Expense Tracker project provided practical experience in Python application development. It helped in understanding how different Python concepts can be combined to create a useful real-world application.
+* GUI
+* Database integration
+* Expense charts
+* Login system
+* Excel/PDF reports
+* Web application
+
+## 14. Conclusion
+
+The **Expense Tracker** project provided practical experience in Python application development. It helped in understanding how different Python concepts can be combined to create a useful real-world application.
+
+The project also provided practical experience in **file handling, data management, validation, testing, documentation, Git, and GitHub**.
