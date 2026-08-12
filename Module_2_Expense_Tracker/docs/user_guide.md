@@ -2,27 +2,19 @@
 
 ## 1. Introduction
 
-**Expense Tracker** is a command-line Python application for managing daily expenses.
+Expense Tracker is a command-line Python application for managing daily expenses.
 
-Users can:
-
-* Add expenses
-* View expenses
-* Search expenses
-* Update expenses
-* Delete expenses
-* View expense summaries
-* Generate monthly reports
+Users can add, view, search, update, and delete expenses.
 
 ---
 
 ## 2. How to Run
 
-Open the project folder in **VS Code**.
+Open the project folder in VS Code.
 
 Open the terminal and run:
 
-```bash
+```text
 python -m src.main
 ```
 
@@ -50,15 +42,17 @@ The following menu will appear:
 
 Select option **1**.
 
-Enter the following details:
+Enter:
 
-* Date
-* Category
-* Description
-* Amount
-* Payment Method
+```text
+Date
+Category
+Description
+Amount
+Payment Method
+```
 
-### Example
+Example:
 
 ```text
 Enter date (YYYY-MM-DD): 2026-08-07
@@ -78,7 +72,7 @@ Select option **2**.
 
 The application displays all saved expenses.
 
-### Example
+Example:
 
 ```text
 ID   Date        Category    Description    Amount
@@ -111,14 +105,14 @@ Select option **4**.
 
 Enter the expense ID and provide the new information.
 
-### Example
+Example:
 
 ```text
 Enter expense ID: 2
 New amount: 100
 ```
 
-The selected expense will be updated.
+The expense will be updated.
 
 ---
 
@@ -128,7 +122,7 @@ Select option **5**.
 
 Enter the expense ID.
 
-### Example
+Example:
 
 ```text
 Enter expense ID: 2
@@ -163,7 +157,7 @@ The application displays expenses grouped by month.
 
 Select option **8**.
 
-The application generates the following report files:
+The application generates:
 
 ```text
 outputs/
@@ -185,13 +179,13 @@ Thank you for using Expense Tracker!
 
 ## 12. Testing
 
-To run the unit tests, use:
+To run the tests, use:
 
-```bash
+```text
 python -m unittest discover tests
 ```
 
-### Expected Result
+Expected result:
 
 ```text
 ......
@@ -201,10 +195,6 @@ Ran 6 tests
 OK
 ```
 
----
-
 ## 13. Conclusion
 
-The **Expense Tracker** application provides an easy way to record, manage, and analyze personal expenses using Python.
-
-It demonstrates practical concepts such as **Python programming, CSV file handling, input validation, unit testing, expense management, and report generation**.
+The application provides an easy way to record and manage personal expenses using Python.
