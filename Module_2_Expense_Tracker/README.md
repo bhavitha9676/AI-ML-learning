@@ -85,7 +85,7 @@ Enter your choice:
 
 ## Author
 
-**Name:** THANNIRU ADARSH
+**Name:** BANDARU BHAVITHA
 
 **Internship:** AI & ML Internship
 
